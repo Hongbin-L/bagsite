@@ -1,0 +1,91 @@
+#cssmenu ul{
+    background-color: #1b2427;
+    text-align: right;
+}
+
+#cssmenu ul li{
+    color: #333;
+    display: inline-block;
+    padding:0.3rem;
+    position: relative;
+}
+
+#cssmenu ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1em;
+
+}
+
+#cssmenu ul li ul{
+    display: none;
+}
+
+#cssmenu ul li:hover{
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #167a98;
+}
+
+#cssmenu ul li:hover a{
+    color: #648793;
+}
+
+#cssmenu ul li:hover ul{
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 200px;
+    margin-top: 0.3rem;
+}
+
+
+#cssmenu2 ul{
+    
+    background-color: #1b2427;
+    text-align: center;
+}
+
+#cssmenu2 ul li{
+    color: #648793;
+    display: inline-block;
+    padding:1.3rem;
+    position: relative;
+}
+
+#cssmenu2 ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1.5em;
+
+}
+
+#cssmenu2 ul li ul{
+    display: none;
+}
+
+#cssmenu2 ul li:hover{
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #167a98;
+}
+
+#cssmenu2 ul li:hover a{
+    color: #648793;
+}
+
+#cssmenu2 ul li:hover ul{
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 200px;
+    margin-top: 1rem;
+}
